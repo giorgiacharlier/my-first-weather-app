@@ -1,0 +1,25 @@
+body {
+  background-color: #edf7fa;
+  font-family: "Roboto Slab", serif;
+}
+
+.app-container {
+  background-color: white;
+  width: 600px;
+  display: block;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+a {
+  color: 136, 93, 241;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+}
