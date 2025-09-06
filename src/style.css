@@ -32,6 +32,32 @@ body {
   color: grey;
 }
 
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailed-info strong {
+  color: darkblue;
+}
+
+.actual-temperature {
+  display: flex;
+  justify-content: right;
+}
+
+.weather-icon {
+  font-size: 50px;
+}
+
+.actual-degrees {
+  font-size: 70px;
+}
+
+.weather-unit {
+  margin: 50px 0;
+}
+
 a {
   color: 136, 93, 241;
 }
