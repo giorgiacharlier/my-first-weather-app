@@ -29,12 +29,12 @@ body {
   padding: 15px 20px;
   border-radius: 6px;
   background-color: lightblue;
-  color: grey;
 }
 
 .weather-info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .detailed-info strong {
@@ -43,19 +43,17 @@ body {
 
 .actual-temperature {
   display: flex;
-  justify-content: right;
 }
-
 .weather-icon {
   font-size: 50px;
+  margin-top: 15px;
+  margin-right: 8px;
 }
-
 .actual-degrees {
   font-size: 70px;
 }
-
 .weather-unit {
-  margin: 50px 0;
+  margin-top: 18px;
 }
 
 a {
