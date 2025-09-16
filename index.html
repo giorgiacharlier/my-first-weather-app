@@ -15,12 +15,13 @@
   <body>
     <div class="app-container">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city"
             required
             class="input-search-field"
+            id="search-input"
           />
           <input type="submit" value="Search" class="input-button" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-info">
           <div class="weather-details">
-            <h1>Florence</h1>
+            <h1 id="city">Florence</h1>
             <p class="detailed-info">
               Wednesday 8:34, overcast clouds <br />Humidity:
               <strong>87%</strong>, Wind: <strong>8.23km/h</strong>
@@ -57,5 +58,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
